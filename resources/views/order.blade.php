@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Банкетам.Нет') }}
+            {{ __('Заказать столик') }}
         </h2>
     </x-slot>
 
@@ -14,25 +14,5 @@
             </div>
         </div>
     </div>
-
-    @php
-        $sliderPictures = [
-            asset('images/img1.jpg'),
-            asset('images/img2.jpg'),
-            asset('images/img3.jpg'),
-            asset('images/img4.jpg'),
-            asset('images/img5.jpg'),
-    ];
-    @endphp
-
-
-
-
-
-
-
-
-
-
 
 </x-app-layout>
